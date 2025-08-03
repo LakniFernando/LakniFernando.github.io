@@ -1,20 +1,23 @@
 :root {
-  --bg-color-light: #edefed;
-  --text-color-light: #0d1a0f;
-  --accent-color-light: #199f56;       
-  --card-bg-light: #ffffff;
-  --border-color-light: #e2f0e6;
-  --timeline-dot-light: #158d41;      
-  --timeline-line-light: #e2f0e6;
+  /* Light Theme */
+  --bg-color-light: #f9fafb; /* Off-white background */
+  --text-color-light: #1f2d1e; /* Dark, earthy green for text */
+  --accent-color-light: #4caf50; /* A vibrant, professional green */
+  --card-bg-light: #ffffff; /* Pure white card background */
+  --border-color-light: #e5e7eb; /* Light gray for borders */
+  --timeline-dot-light: #4caf50; /* Matches the accent color */
+  --timeline-line-light: #e5e7eb; /* Light gray for timeline line */
 
-  --bg-color-dark: #11271b;
-  --text-color-dark: #d1dbd2;
-  --accent-color-dark: #259c4b;
-  --card-bg-dark: #101c14;
-  --border-color-dark: #293c2a;
-  --timeline-dot-dark:  #158d41; 
-  --timeline-line-dark: #37513f;
+  /* Dark Theme */
+  --bg-color-dark: #1f2928; /* Deep, muted green-gray background */
+  --text-color-dark: #d1d5d8; /* Soft white for text */
+  --accent-color-dark: #81c784; /* A lighter, more visible green for dark mode */
+  --card-bg-dark: #2c3e2e; /* Dark, subtle green for card backgrounds */
+  --border-color-dark: #4b554e; /* Darker gray-green for borders */
+  --timeline-dot-dark: #81c784; /* Matches the dark accent color */
+  --timeline-line-dark: #4b554e; /* Darker line for timeline */
 
+  /* General Variables */
   --header-height: 64px;
 }
 
@@ -106,7 +109,7 @@ body.dark .avatar {
 }
 
 .avatar:hover {
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
 
 .nav-brand {
