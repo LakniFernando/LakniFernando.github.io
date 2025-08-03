@@ -1,18 +1,18 @@
 :root {
-  --bg-color-light: #f4faf5;
+  --bg-color-light: #edefed;
   --text-color-light: #0d1a0f;
   --accent-color-light: #199f56;       
   --card-bg-light: #ffffff;
   --border-color-light: #e2f0e6;
-  --timeline-dot-light: #22c55e;      
+  --timeline-dot-light: #158d41;      
   --timeline-line-light: #e2f0e6;
 
   --bg-color-dark: #11271b;
   --text-color-dark: #d1dbd2;
-  --accent-color-dark: #34d366;
+  --accent-color-dark: #259c4b;
   --card-bg-dark: #101c14;
   --border-color-dark: #293c2a;
-  --timeline-dot-dark: #4ade80;
+  --timeline-dot-dark:  #158d41; 
   --timeline-line-dark: #37513f;
 
   --header-height: 64px;
@@ -357,7 +357,7 @@ body.dark .section {
   padding: 0.4rem 1rem;
   border-radius: 9999px;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
   transition: all 0.2s;
 }
 
